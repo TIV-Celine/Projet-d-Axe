@@ -1,0 +1,54 @@
+a{
+    color : inherit;
+}
+
+.topbar{
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.topbar a{
+    text-decoration: none;
+}
+
+.topbar-logo{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    padding: 11px 0;
+}
+
+.topbar-nav{
+    text-align: center;
+    padding-bottom: 16px;
+    line-height: 2;
+}
+
+.topbar-nav a{
+    display: inline-block;
+    margin-right: 0 12px;
+    color: rgba(255, 255, 255, 0.67);
+    transition: color .3s;
+}
+
+.topbar-nav a:hover,
+.topbar-nav a.active {
+    color: #fff;
+}
+
+@media only screen and (min-width: 521px){
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 64px;
+        padding: 0 25px;
+    }
+    .topbar-logo,
+    .topbar-nav{
+        padding: 0;
+    }
+    .topbar-nav a{
+        margin : 0 20px;
+    }
+}
