@@ -116,25 +116,7 @@
         </main>
         <aside>
         <!-- Tags -->
-        <div class="wrapper">
-        <div class="title">
-            <img src="img/tags_categories_icon_145927.png" alt="tag-icon">
-            <h1>Tags</h1>
-        </div>
-        <div class="content">
-            <p>Veuillez saisir votre tag</p>
-            <div class="tag-box">
-                <ul>
-                    <li>html <i class="uit uit-multiply"></i></li>
-                    <li>css <i class="uit uit-multiply"></i></li>
-                    <input type="text">
-                </ul>
-            </div>
-        </div>
-        <div class="detail">
-            <button>Remove all</button>
-        </div>
-    </div>
+        <a href="tags.html">tags</a>
         <!-- floating avec le contenu de lorem -->
         <button class="floating-btn">
                 <img src="img/questionincircularbutton_80033.png" alt="">
