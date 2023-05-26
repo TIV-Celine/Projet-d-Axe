@@ -1,13 +1,18 @@
-@import url(pages/tags.css);
+@import url(component/navbar.css);
+@import url(component/carte.css);
+@import url(component/avatar.css);
+@import url(component/button.css);
+@import url(component/tags.css);
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
+    margin-right: 14px;
 }
-
 
 .ma-grande-boite{
     display: grid;
