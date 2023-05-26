@@ -35,7 +35,7 @@
                         </a>
                     </li>
                     <li class="list">
-                        <a href="#" class="nav-link ">
+                        <a href="profil.php" class="nav-link ">
                             <img src="img/4092564-about-mobile-ui-profile-ui-user-website_114033.png" alt="">
                             <span class="link">Profil</span>
                         </a>
