@@ -3,6 +3,8 @@
 @import url(component/avatar.css);
 @import url(component/button.css);
 @import url(component/tags.css);
+@import url(component/connexion.css);
+@import url(component/inscription.css);
 
 
 * {
